@@ -1,0 +1,72 @@
+<html>
+  <head>
+  <script src="bundle.js"></script>
+  <script>
+    var app = require("app");
+  </script>
+
+  <style>
+    body {
+        background: #666;
+    }
+
+    article {
+      background: white;
+      border: 1px black solid;
+      width: 48%;
+      padding: 5px;
+    }
+
+    .left {
+      float: left;
+      cursor: pointer;
+    }
+    
+    .right {
+      float: right;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      margin: 10px;
+    }
+
+    label {
+      padding-left: 10px;
+      margin-left: 5px;
+    }
+
+    input {
+      padding: 0;
+      margin: 0;
+      margin-left: 10px;
+    }
+
+    .name {
+      font-weight: bold;
+      font-size: 16px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 4px;
+
+    }
+
+    #preview {
+      border: 1px black solid;
+      padding: 10px;
+    }
+  </style>
+  </head>
+<body>
+
+  <article id="newForm" class="left">
+  </article>
+
+  <article class="right">
+  <h2>Business Card Preview</h2>
+  <div id="preview"></div>
+  </article>
+</body>
